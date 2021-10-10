@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'fontawasome';
+}
+
+#cabecalho{
+    display: flex;
+   padding-top: 30px;
+   padding-bottom: 30px;
+ 
+   
+    background: rgb(17, 166, 216);
+}
+#cabecalho ul li{
+    display: inline-flex;
+    list-style: none;
+}
+#cabecalho a{
+    color: white;
+    text-transform: uppercase;
+    margin-left: 50px;
+    text-decoration: none;
+  
+
+}
+#banner{
+    background-image: url(img/daniel-storek-JM-qKEd1GMI-unsplash.jpg);
+    background-size: cover;
+  
+    height: 800px;
+}
+
+#banner h2{
+    padding-top: 400px;
+    margin-left: 100px;
+
+}
+
+#banner button{
+    background: rgb(17, 166, 216);
+    border-radius: 40px;
+    padding: 7px;
+    height: 50px;
+    width: 100px;
+    margin-left: 200px;
+    margin-top: 5px;
+}
